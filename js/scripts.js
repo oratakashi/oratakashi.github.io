@@ -70,6 +70,9 @@ $(function () {
 				
 				$(card_item).removeClass('hidden');
 				$(card_item).addClass('active');
+			}else{
+				menu_items.removeClass('active');
+				container.find(card_items).addClass('animated '+animation_out);
 			}
 		}
 		/* if mobile */
